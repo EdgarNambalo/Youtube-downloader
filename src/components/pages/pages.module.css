@@ -1,0 +1,38 @@
+
+.daocaoDiv{
+    width: 50%;
+    padding: 0 0 1em 0;
+
+}
+.daocaodiv h2 , p{
+    margin-top: 10px;
+    
+    
+}
+/*-=========home_inserir==========*/
+
+.home_inserir{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 425px){
+    html , body, #root {
+      background-color: #efefef;
+      height: 100%;
+      width: 100%;
+    }
+
+    .daocaoDiv ,.sobre{
+        width: 100%;
+        padding: 0 .5rem;
+    
+    }
+  
+    /*-=========home_inserir==========*/
+    
+
+}

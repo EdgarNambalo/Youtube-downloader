@@ -1,0 +1,61 @@
+.from_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.from_control label {
+    margin-bottom: .6em;
+    font-weight: bold;
+    
+}
+.from_control input {
+    padding: 0.7em;
+    border-radius: 0;
+    border: none;
+}
+.from_control input::placeholder{
+    color: #7b7b7b;
+}
+@media screen and (max-width: 425px){
+    
+    .from_control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+    .from_control label {
+        font-size: .7rem;
+        
+    }
+    .from_control input {
+        width: 100%;
+        height: 30px;
+        font-size: .7rem;
+
+    }
+   
+}
+/*
+import Input from '../form/Input';
+import styles from './ProjectForm.module.css'
+
+function ProjectForm() {
+    return (
+        <form className={styles.form}>
+            <p>Formulário</p>
+            <Input type="text" text="Insira o nome do projecto" name="name" placeholder="Insira o nome do projecto" />
+            <div>
+                <select name="category_id" id="">
+                    <option value="">Selecione a categoria</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="criar Projecto"/>
+            </div>
+        </form>
+    )
+}
+
+export default ProjectForm;
+*/

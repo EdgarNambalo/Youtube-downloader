@@ -1,0 +1,38 @@
+.from_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.from_control label {
+    margin-bottom: .6em;
+    font-weight: bold;
+    
+}
+.from_control select {
+    padding: 0.7em;
+    border-radius: 0;
+    border: none;
+}
+@media screen and (max-width: 450px){
+    html , body, #root {
+      background-color: #efefef;
+      height: 100%;
+      width: 100%;
+    }
+    .from_control {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+    .from_control label {
+        margin-bottom: .7em;
+        font-weight: bold;
+        font-size: .7rem;
+        
+    }
+    .from_control select {
+        padding: 0.6em;
+        border-radius: 0;
+        border: none;
+    }
+}
